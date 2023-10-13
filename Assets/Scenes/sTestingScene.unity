@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1026,12 +1026,13 @@ MonoBehaviour:
   m_Container: {fileID: 216248836}
   m_ItemsToInstantiate:
   - prefab: {fileID: 0}
-    Prefab: {fileID: 0}
+    Prefab: {fileID: 2985596358631396025, guid: c2eb4013e45921946bf72efdd50a8f22,
+      type: 3}
     probability: 0
     Probability: 100
   m_Method: 2
   m_Space: 0
-  m_Spacing: {x: 2.3, y: 2.3}
+  m_Spacing: {x: 4.3, y: 4.3}
   m_Up: 1
   m_Forward: 2
   m_PositionOffset:
