@@ -3,7 +3,17 @@ guid: 3dfec9f543021dc4cb1bb536e651e8b4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tint Receiver
+    second: {fileID: 2100000, guid: 10f4d5e772e067744a15b1521877f9f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tint Receiver 2
+    second: {fileID: 2100000, guid: bc9e41274e0361d42b3deec50efe0e71, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

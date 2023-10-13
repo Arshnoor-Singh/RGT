@@ -3,7 +3,17 @@ guid: 71db95b23fe53d9448e4e0e5b383be20
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palette Texture
+    second: {fileID: 2100000, guid: 7e2fa93726adc9a4e885510a3f78ddc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tint Receiver
+    second: {fileID: 2100000, guid: 496a27137cf8889439dba80906d942ed, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
