@@ -7,15 +7,19 @@ public class sMascotController : MonoBehaviour
     
     //Variable for Character Speed on Spline
     public float movementSpeed = 20;
+
+    private SplineContainer currentSpline;
+    private SplineContainer nextSpline;
+
     private void Awake()
     {
-        //mascotSplineAnimate.MaxSpeed = 0;
+        //mascotSplineAnimate.Pause();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        currentSpline = mascotSplineAnimate.Container;
     }
 
     // Update is called once per frame
@@ -27,6 +31,11 @@ public class sMascotController : MonoBehaviour
     //Function will be called by the SceneController when the player will have to move
     public void MoveMascot()
     {
-        mascotSplineAnimate.MaxSpeed = movementSpeed;
+        mascotSplineAnimate.Play();
+    }
+
+    public void ChangeMascotSpline()
+    {
+        mascotSplineAnimate.Container = nextSpline;
     }
 }
